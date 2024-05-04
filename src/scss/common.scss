@@ -1,0 +1,43 @@
+body {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.container {
+  max-width: 1656px;
+  padding: 0 132px;
+  margin: 0 auto;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.4s;
+  &:hover {
+    transition: color 0.4s;
+  }
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  padding: 20px 24px 20px 24px;
+  border-radius: 12px;
+}
+.h2-text {
+  font-family: "semibold", sans-serif;
+  color: $primary-black;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2%;
+  text-align: left;
+}

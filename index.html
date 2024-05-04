@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./public/favicon/favicon_io/favicon.ico"
+    />
+    <title>Второе дыхание</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="header">
+        <div class="container">
+          <div class="header__block flex-center">
+            <div class="header__logo">
+              <img src="./public/images/logo.svg" alt="logo" />
+            </div>
+            <div class="header__nav flex-center">
+              <nav class="header__nav-left flex-center">
+                <li><a href="#!">Сдать одежду</a></li>
+                <li><a href="#!">О&nbsp;фонде</a></li>
+                <li><a href="#!" class="green-border">Компаниям</a></li>
+                <li><a href="#!">Журнал</a></li>
+                <li><a href="#!">Присоединиться</a></li>
+              </nav>
+              <div class="header__nav-right flex-center">
+                <a href="#">
+                  <div class="search flex-center">
+                    <img src="./public/images/svg/search.svg" alt="поиск" />
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="btn btn-help flex-center">Хочу помочь</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="container">
+          <div class="main__block flex-center">
+            <div class="main__left">
+              <div class="main__left-top">
+                <p>Ваша&nbsp;ненужная одежда&nbsp;способна на&nbsp;многое</p>
+              </div>
+              <div class="main__left-body">
+                <div class="main__left-body-steps flex-center">
+                  <div class="main__left-body-steps-item flex-center">
+                    <p class="main__count count__rotate">1</p>
+                    <p class="main__text">
+                      Вы сдаёте в контейнер свитер, который перестали носить.
+                      Или другую ненужную одежду
+                    </p>
+                  </div>
+
+                  <div class="main__left-body-steps-item flex-center">
+                    <p class="main__count">2</p>
+                    <p class="main__text">
+                      Мы&nbsp;вручную сортируем все собранные вещи. Ваш свитер
+                      отправляется на&nbsp;благотворительность
+                    </p>
+                  </div>
+                  <div class="main__left-body-steps-item flex-center">
+                    <p class="main__count">3</p>
+                    <p class="main__text">
+                      Свитер порадует многодетную маму или&nbsp;согреет пожилого
+                      человека
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="main__left-footer flex-center">
+                <a href="#!" class="btn drop-off">
+                  <p>Сдать одежду</p>
+                </a>
+                <a href="#!" class="btn help-us">
+                  <p>Поддержать фонд</p>
+                </a>
+              </div>
+            </div>
+            <div class="main__right flex-center">
+              <div class="main__right-col-left flex-center">
+                <img
+                  src="./public/images/main/main-1.png"
+                  alt="1"
+                  class="main__img-large object-position-1"
+                />
+                <img
+                  src="./public/images/main/main-3.png"
+                  alt="3"
+                  class="main__img-small object-position-3"
+                />
+              </div>
+              <div class="main__right-col-right flex-center">
+                <div class="shadow-block">
+                  <img
+                    src="./public/images/main/main-2.png"
+                    alt="2"
+                    class="main__img-small object-position-2"
+                  />
+                  <div class="pink-block"></div>
+                </div>
+                <img
+                  src="./public/images/main/main-4.png"
+                  alt="4"
+                  class="main__img-large object-position-4"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img
+                  src="/public/images/main/slider/main-slider_1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/public/images/main/slider/main-slider_2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/public/images/main/slider/main-slider_1.png"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="/public/images/main/slider/main-slider_1.png"
+                  alt=""
+                />
+              </div>
+              <!-- ... -->
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination swiper-pagination-bullets-custom">
+              <div class="swiper-pagination-bullet-custom"></div>
+              <div class="swiper-pagination-bullet-custom"></div>
+              <div class="swiper-pagination-bullet-custom"></div>
+              <div class="swiper-pagination-bullet-custom"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+          <div class="h2-text">
+            Передайте ненужные вещи на&nbsp;повторное использование или
+            переработку
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
